@@ -7,7 +7,7 @@ import Track from './components/Track';
 import Private from './components/Private';
 import FoodList from "./components/FoodList";
 import { UserContext } from './contexts/UserContext';
-import { useEffect, useState } from 'react';
+import {  useState } from 'react';
 import Diet from './components/Diet';
 import TrackFood from './components/TrackFood';
 
