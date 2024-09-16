@@ -1,0 +1,212 @@
+{
+  "users": [
+    {
+      "id": "e5f5",
+      "name": "Heeba Hassan",
+      "email": "heebahassan182@gmail.com",
+      "password": "1234",
+      "age": "21"
+    }
+  ],
+  "foods": [
+    {
+      "id": "1",
+      "name": "Apple",
+      "calories": 52,
+      "protein": 0.3,
+      "carbohydrates": 14,
+      "fat": 0.2,
+      "fiber": 2.4,
+      "imageUrl": "https://media.istockphoto.com/id/1473676063/photo/red-apples-on-the-market-stall.webp?a=1&b=1&s=612x612&w=0&k=20&c=x0WdCbhPmrsjSpQHrykHIwlm6Wn2_yFzMuBVyAXSn3c="
+    },
+    {
+      "id": "2",
+      "name": "Chicken Breast",
+      "calories": 165,
+      "protein": 31,
+      "carbohydrates": 0,
+      "fat": 3.6,
+      "fiber": 0,
+      "imageUrl": "https://images.unsplash.com/photo-1670398564097-0762e1b30b3a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNoaWNrZW4lMjBicmVhc3R8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "3",
+      "name": "Broccoli",
+      "calories": 55,
+      "protein": 3.7,
+      "carbohydrates": 11.2,
+      "fat": 0.6,
+      "fiber": 4.4,
+      "imageUrl": "https://media.istockphoto.com/id/147060621/photo/broccoli.webp?a=1&b=1&s=612x612&w=0&k=20&c=DxaJHH0Z-i-xTX6gm8jQNEycHoaeLPT877DbUN8XbuU="
+    },
+    {
+      "id": "4",
+      "name": "Rice",
+      "calories": 130,
+      "protein": 2.7,
+      "carbohydrates": 28,
+      "fat": 0.3,
+      "fiber": 0.4,
+      "imageUrl": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHJpY2V8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "5",
+      "name": "Banana",
+      "calories": 89,
+      "protein": 1.1,
+      "carbohydrates": 23,
+      "fat": 0.3,
+      "fiber": 2.6,
+      "imageUrl": "https://media.istockphoto.com/id/175390068/photo/banana-wallpaper.webp?a=1&b=1&s=612x612&w=0&k=20&c=rtha6Fu8UIQR7TYelpn-0tkca_p7fy7Paisx3GN_y0I="
+    },
+    {
+      "id": "6",
+      "name": "Salmon",
+      "calories": 208,
+      "protein": 20,
+      "carbohydrates": 0,
+      "fat": 13,
+      "fiber": 0,
+      "imageUrl": "https://media.istockphoto.com/id/1952949637/photo/spicy-salmon-bowl-with-rice-carrots-cucumber-and-avocado.webp?a=1&b=1&s=612x612&w=0&k=20&c=4OhBe7bQGrk6LdL8Kn0sGIu7GCYep44IaJuiWtkxGkI="
+    },
+    {
+      "id": "7",
+      "name": "Spinach",
+      "calories": 23,
+      "protein": 2.9,
+      "carbohydrates": 3.6,
+      "fat": 0.4,
+      "fiber": 2.2,
+      "imageUrl": "https://images.unsplash.com/photo-1665889950448-7d17aa579414?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNwaW5hY2h8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "8",
+      "name": "Eggs",
+      "calories": 120,
+      "protein": 4.1,
+      "carbohydrates": 21,
+      "fat": 1.9,
+      "fiber": 2.8,
+      "imageUrl": "https://media.istockphoto.com/id/1309201616/photo/close-up-of-boiled-egg-slices.webp?a=1&b=1&s=612x612&w=0&k=20&c=uPoviPmJyu985RhVjvqz2PJMtxnmV3wAmcwkrl0dzbM="
+    },
+    {
+      "id": "9",
+      "name": "Sweet Potato",
+      "calories": 86,
+      "protein": 1.6,
+      "carbohydrates": 20.1,
+      "fat": 0.1,
+      "fiber": 3,
+      "imageUrl": "https://media.istockphoto.com/id/516414039/photo/bowl-of-oven-roasted-sweet-potato-with-rosemary-and-thyme.webp?a=1&b=1&s=612x612&w=0&k=20&c=aHUEaKIJU-BRMJBOLKHNPIj-rTOQaMOhR-6WNCcVbUg="
+    },
+    {
+      "id": "10",
+      "name": "Greek Yogurt",
+      "calories": 59,
+      "protein": 10,
+      "carbohydrates": 3.6,
+      "fat": 0.4,
+      "fiber": 0,
+      "imageUrl": "https://media.istockphoto.com/id/1771224912/photo/granola-and-yogurt-withfresh-fruits-in-jar-granola-homemade-granola-with-yogurt-and-fresh.webp?a=1&b=1&s=612x612&w=0&k=20&c=_e7eu_ICM2uyaiXaz6JK0JzH355I9KH7BRMHm48MVmQ="
+    },
+    {
+      "id": "11",
+      "name": "Watermelon",
+      "calories": 52,
+      "protein": 0.3,
+      "carbohydrates": 14,
+      "fat": 0.2,
+      "fiber": 2.4,
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1663855531381-f9c100b3c48f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2F0ZXJtZWxvbnxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "12",
+      "name": "Beef",
+      "calories": 165,
+      "protein": 31,
+      "carbohydrates": 0,
+      "fat": 3.6,
+      "fiber": 0,
+      "imageUrl": "https://media.istockphoto.com/id/972852490/photo/bbq-sirloin-steaks-with-fresh-thyme.webp?a=1&b=1&s=612x612&w=0&k=20&c=NOYwbwnrBUtdEV9DBoRtoOyAO73WMego00qEHl48Q5E="
+    }
+  ],
+  "dietPlans": [
+    {
+      "id": "1",
+      "name": "Weight Loss Plan",
+      "description": "A diet plan focused on reducing body weight."
+    },
+    {
+      "id": "2",
+      "name": "Muscle Gain Plan",
+      "description": "A diet plan for building muscle mass."
+    },
+    {
+      "id": "3",
+      "name": "Balanced Diet Plan",
+      "description": "A general diet plan for overall health."
+    }
+  ],
+  "track": [
+    {
+      "_id": "1",
+      "foodId": "1",
+      "quantity": 100,
+      "details": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbohydrates": 14,
+        "fat": 0.2,
+        "fiber": 2.4
+      },
+      "date": "2024-09-16",
+      "userId": "e5f5",
+      "imageUrl": "https://media.istockphoto.com/id/1473676063/photo/red-apples-on-the-market-stall.webp?a=1&b=1&s=612x612&w=0&k=20&c=x0WdCbhPmrsjSpQHrykHIwlm6Wn2_yFzMuBVyAXSn3c="
+    },
+    {
+      "_id": "2",
+      "foodId": "2",
+      "quantity": 150,
+      "details": {
+        "calories": 165,
+        "protein": 31,
+        "carbohydrates": 0,
+        "fat": 3.6,
+        "fiber": 0
+      },
+      "date": "2024-09-16",
+      "userId": "e5f5",
+      "imageUrl": "https://images.unsplash.com/photo-1670398564097-0762e1b30b3a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNoaWNrZW4lMjBicmVhc3R8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "_id": "3",
+      "foodId": "3",
+      "quantity": 200,
+      "details": {
+        "calories": 55,
+        "protein": 3.7,
+        "carbohydrates": 11.2,
+        "fat": 0.6,
+        "fiber": 4.4
+      },
+      "date": "2024-09-16",
+      "userId": "e5f5",
+      "imageUrl": "https://media.istockphoto.com/id/147060621/photo/broccoli.webp?a=1&b=1&s=612x612&w=0&k=20&c=DxaJHH0Z-i-xTX6gm8jQNEycHoaeLPT877DbUN8XbuU="
+    },
+    {
+      "_id": "4",
+      "foodId": "4",
+      "quantity": 100,
+      "details": {
+        "calories": 130,
+        "protein": 2.7,
+        "carbohydrates": 28,
+        "fat": 0.3,
+        "fiber": 0.4
+      },
+      "date": "2024-09-16",
+      "userId": "e5f5",
+      "imageUrl": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHJpY2V8ZW58MHx8MHx8fDA%3D"
+    }
+  ]
+}
