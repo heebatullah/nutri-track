@@ -13,7 +13,7 @@ function Track() {
 
   // Fetch tracked foods from db.json
   useEffect(() => {
-    fetch('http://localhost:8000/track')
+    fetch('https://nutri-track.onrender.com/track')
       .then((response) => response.json())
       .then((data) => setTrackedFoods(data))
       .catch((error) => console.error('Error fetching tracked foods:', error));
@@ -25,7 +25,7 @@ function Track() {
     setSearchTerm(query);
     
     if (query.length !== 0) {
-      fetch(`http://localhost:8000/foods?q=${query}`, {
+      fetch(`https://nutri-track.onrender.com/foods?q=${query}`, {
         method: 'GET',
         headers: {
           "Authorization": `Bearer ${loggedUser.token}`

@@ -27,7 +27,7 @@ export default function Login() {
     console.log(userCreds);
 
     try {
-      const response = await fetch("http://localhost:8000/users"); // Fetch all users
+      const response = await fetch("https://nutri-track.onrender.com/users"); // Fetch all users
       const users = await response.json();
 
       // Check if email exists in users

@@ -13,7 +13,7 @@ export default function Diet() {
 
     useEffect(() => {
         // Fetch all tracked foods
-        fetch('http://localhost:8000/track')
+        fetch('https://nutri-track.onrender.com/track')
             .then((response) => response.json())
             .then((data) => {
                 setItems(data);

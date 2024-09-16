@@ -9,7 +9,7 @@ function TrackFood() {
   const loggedData = useContext(UserContext);
 
   useEffect(() => {
-    fetch(`http://localhost:8000/foods/${id}`)
+    fetch(`https://nutri-track.onrender.com/foods/${id}`)
       .then((response) => response.json())
       .then((data) => setFood(data))
       .catch((error) => console.error("Error fetching food data:", error));
@@ -29,7 +29,7 @@ function TrackFood() {
       quantity,
     };
 
-    fetch("http://localhost:8000/track", {
+    fetch("https://nutri-track.onrender.com/track", {
       method: "POST",
       body: JSON.stringify(trackedItem),
       headers: {

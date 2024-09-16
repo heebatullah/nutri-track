@@ -34,7 +34,7 @@ export default function Register()
             event.preventDefault();
             // console.log(userDetails);
 
-            fetch("http://localhost:8000/users",{
+            fetch("https://nutri-track.onrender.com/users",{
                 method:"POST",
                 body:JSON.stringify(userDetails),
                 headers:{

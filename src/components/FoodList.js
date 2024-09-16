@@ -6,7 +6,7 @@ function FoodList() {
   const [search, setSearch] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:8000/foods")
+    fetch("https://nutri-track.onrender.com/foods")
       .then((response) => response.json())
       .then((data) => setFoods(data))
       .catch((error) => console.error("Error fetching food data:", error));
@@ -17,7 +17,7 @@ function FoodList() {
   );
 
   const handleTrackFood = (food) => {
-    fetch("http://localhost:8000/track", {
+    fetch("https://nutri-track.onrender.com/track", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
