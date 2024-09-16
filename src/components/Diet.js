@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import Header from './Header';
 
 export default function Diet() {
@@ -23,11 +23,8 @@ export default function Diet() {
             });
     }, []);
 
-    useEffect(() => {
-        calculateTotal();
-    }, [items]);
-
-    function calculateTotal() {
+    // Use useCallback to memoize the calculateTotal function
+    const calculateTotal = useCallback(() => {
         let totalCopy = {
             totalCalories: 0,
             totalProtein: 0,
@@ -47,7 +44,12 @@ export default function Diet() {
         });
 
         setTotal(totalCopy);
-    }
+    }, [items]);
+
+    // Now include calculateTotal in the dependency array
+    useEffect(() => {
+        calculateTotal();
+    }, [items, calculateTotal]);
 
     return (
         <section className="container diet-container">
@@ -79,3 +81,4 @@ export default function Diet() {
         </section>
     );
 }
+
